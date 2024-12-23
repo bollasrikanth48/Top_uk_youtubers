@@ -55,7 +55,16 @@ SQL queries are used to explore the data and following is the code used
 
 ![Display all columns using SQL](Assets/images/data.png)
 
+Data consists of 13 columns and 100 rows 
+required columns are channel_name, total_subscribers, total_views, total_videos
+
+![Data Output](Assets/images/data output.png)
+
+
 ## Data_Cleaning
+
+Channel name included @ and channel id, 
+
 ## Create_SQL_view
 # Testing
 # Visualization _using_PowerBi
