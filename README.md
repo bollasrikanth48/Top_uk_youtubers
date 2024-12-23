@@ -1,8 +1,5 @@
 # Data Analysis using Excel, SQL and Power Bi
 
-![Dashboard for top UK Youtubers 2024](Assets/images/powerbi.jpg)
-
-
 <div align="center">
   <img src="Assets/images/powerbi.jpg" alt="Dashboard for top UK Youtubers 2024" style="max-width: 100%; height: auto;">
   <p><strong>Dashboard for top UK Youtubers 2024</strong></p>
@@ -61,6 +58,8 @@ SQL queries are used to explore the data and following is the code used
 Data consists of 13 columns and 100 rows 
 required columns are channel_name, total_subscribers, total_views, total_videos
 
+## Data Output
+
 ![Data Output](Assets/images/data output.png)
 
 
@@ -68,10 +67,15 @@ required columns are channel_name, total_subscribers, total_views, total_videos
 
 Channel name included name@channel id, data is cleaned in sql to extract only channel id
 
+## Data Cleaning
+
 ![Data Cleaning](Assets/images/data cleaning.png)
 
 ## Create_SQL_view
 Feature engineering is done by selecting only selected columns and created a SQL view to connect it with PowerBi
+
+
+## SQL View
 
 ![SQL View](Assets/images/create view.png)
 
@@ -87,6 +91,19 @@ following are the data quality checks conducted
 
 # Visualization _using_PowerBi
 ## Dax_Measures
+
+# DAX Measures
+
+### 1. Total Subscribers (M)
+
+```dax
+Total Subscribers (M) =
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers, million)
+
+RETURN totalSubscribers
+
 
 ## Results
 # Findings
