@@ -1,4 +1,4 @@
-# Selecting marketing campaign abassodor using Excel, SQL and Power Bi
+# Selecting marketing campaign abassador using Excel,SQL and Power Bi
 
 <div align="center">
   <img src="Assets/images/Results.gif" alt="Results GIF" style="max-width: 100%; height: auto;">
