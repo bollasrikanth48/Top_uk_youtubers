@@ -1,6 +1,15 @@
 # Data Analysis using Excel, SQL and Power Bi
 
 ![Dashboard for top UK Youtubers 2024](Assets/images/powerbi.jpg)
+
+
+<div align="center">
+  <img src="Assets/images/powerbi.jpg" alt="Dashboard for top UK Youtubers 2024" style="max-width: 100%; height: auto;">
+  <p><strong>Dashboard for top UK Youtubers 2024</strong></p>
+</div>
+
+
+
 # Table of Contents
 -  [Objective](#Objective)
 -  [Data_Source](#Data_Source)
@@ -22,14 +31,8 @@
 The Content Strategist wants to identify the most influential YouTube channels in the travel and lifestyle niche to decide which creators would be most impactful for sponsorships and collaborations in 2024.
 
 ### Problem Statement
-To develop a dashboard that provides actionable insights into the top travel and lifestyle YouTubers of 2024, including their:
 
-1. Subscriber count
-2. Total views
-3. Video upload frequency
-3. Engagement metrics (likes, comments, shares)
-
-This dashboard will empower the content strategy team to make data-driven decisions about partnerships that align with the company’s branding and audience goals.
+who is the most reliable YouTuber for a company to invest in for effective marketing campaigns?
 
 # Data_Source
 Data is sourced from kaggle: (#https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
@@ -63,12 +66,28 @@ required columns are channel_name, total_subscribers, total_views, total_videos
 
 ## Data_Cleaning
 
-Channel name included @ and channel id, 
+Channel name included name@channel id, data is cleaned in sql to extract only channel id
+
+![Data Cleaning](Assets/images/data cleaning.png)
 
 ## Create_SQL_view
+Feature engineering is done by selecting only selected columns and created a SQL view to connect it with PowerBi
+
+![SQL View](Assets/images/create view.png)
+
+
 # Testing
+
+following are the data quality checks conducted
+- Row count check
+- Column count check
+- Data Type check
+- Duplicate count check
+
+
 # Visualization _using_PowerBi
 ## Dax_Measures
+
 ## Results
 # Findings
 # Recomendation
