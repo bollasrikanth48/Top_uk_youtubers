@@ -52,6 +52,7 @@ General approach used as follows
 ## Data_Exploration
 Dataset contains Top 100 youtubers based on the subscribers count in United Kingdom in 2024
 SQL queries are used to explore the data and following is the code used
+
 '''sql
 SELECT TOP (1000) [Column_1]
       ,[NOMBRE]
@@ -68,7 +69,6 @@ SELECT TOP (1000) [Column_1]
       ,[total_videos]
       ,[column14]
   FROM [youtube_db].[dbo].[youtube_data_new];
-'''
 
 ## Data_Cleaning
 ## Create_SQL_view
