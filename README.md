@@ -67,7 +67,7 @@ SELECT TOP (1000) [Column_1]
       ,[total_views]
       ,[total_videos]
       ,[column14]
-  FROM [youtube_db].[dbo].[youtube_data_new]
+  FROM [youtube_db].[dbo].[youtube_data_new];
 '''
 
 ## Data_Cleaning
