@@ -96,6 +96,7 @@ following are the data quality checks conducted
 
 ### 1. Total Subscribers (M)
 
+
 ```dax
 Total Subscribers (M) =
 VAR million = 1000000
@@ -103,6 +104,7 @@ VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
 VAR totalSubscribers = DIVIDE(sumOfSubscribers, million)
 
 RETURN totalSubscribers
+
 
 
 ## Results
