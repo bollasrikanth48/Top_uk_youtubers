@@ -1,7 +1,7 @@
-# Data Analysis using Excel, SQL and Power Bi
+# Selecting marketing campaign abassodor using Excel, SQL and Power Bi
 
 <div align="center">
-  <img src="Assets/images/powerbi.jpg" alt="Dashboard for top UK Youtubers 2024" style="max-width: 100%; height: auto;">
+  <img src="Assets/images/Results.gif" alt="Results GIF" style="max-width: 100%; height: auto;">
   <p><strong>Dashboard for top UK Youtubers 2024</strong></p>
 </div>
 
@@ -11,16 +11,16 @@
 -  [Objective](#Objective)
 -  [Data_Source](#Data_Source)
 -  [Steps_involved](#Steps_involved)
--  [Development_using_SQL](#Development_using_SQL)
-  - [Data_Exploration](##Data_Exploration)
-  - [Data_Cleaning](##Data_Cleaning)
+ -   [Development_using_SQL](#Development_using_SQL)
+ -   [Data_Exploration](##Data_Exploration)
+-  [Data_Cleaning](##Data_Cleaning)
   - [Create_SQL_view](##Create_SQL_view)
 -  [Testing](#Testing)
 -  [Visualization](#Visualization)
   - [Dax_Measures](##Dax_Measures)
   - [Results](##Results)
 -  [Findings](#Findings)
--  [Recomendation](#Recomendation)
+-  [Validation](#Validation)
 -  [Conclusion](#Conclusion)
 
 
@@ -38,22 +38,30 @@ Data is sourced from kaggle: (#https://www.kaggle.com/datasets/bhavyadhingra0002
 1. Development using SQL
 2. Testing
 3. Visualization using Power Bi
+
+
 # Development_using_SQL
+
 General approach used as follows
-1. Get the data
-2. Explore the data in Excel
-3. Load the data into SQL Server
-4. Clean the data with SQL
-5. Test the data with SQL and Excel
-6. Visualize the data in Power BI
-7. Generate the findings based on the insights
-8. Write the documentation + commentary
-9. Publish the data to GitHub Pages
+-  Get the data
+-  Explore the data in Excel
+-  Load the data into SQL Server
+-  Clean the data with SQL
+-  Test the data with SQL and Excel
+-  Visualize the data in Power BI
+-  Generate the findings based on the insights
+-  Write the documentation + commentary
+-  Publish the data to GitHub Pages
+
+
 ## Data_Exploration
+
 Dataset contains Top 100 youtubers based on the subscribers count in United Kingdom in 2024
 SQL queries are used to explore the data and following is the code used
 
+
 ![Display all columns using SQL](Assets/images/data.png)
+
 
 Data consists of 13 columns and 100 rows 
 required columns are channel_name, total_subscribers, total_views, total_videos
@@ -63,11 +71,11 @@ required columns are channel_name, total_subscribers, total_views, total_videos
 ![Data Output](Assets/images/data output.png)
 
 
-### Data_Cleaning
+## Data_Cleaning
 
 Channel name included name@channel id, data is cleaned in sql to extract only channel id
 
-### Data Cleaning
+## Data Cleaning
 
 ![Data Cleaning](Assets/images/data cleaning.png)
 
@@ -75,7 +83,7 @@ Channel name included name@channel id, data is cleaned in sql to extract only ch
 Feature engineering is done by selecting only selected columns and created a SQL view to connect it with PowerBi
 
 
-### SQL View
+## SQL View
 
 ![SQL View](Assets/images/create view.png)
 
