@@ -53,22 +53,7 @@ General approach used as follows
 Dataset contains Top 100 youtubers based on the subscribers count in United Kingdom in 2024
 SQL queries are used to explore the data and following is the code used
 
-'''sql
-SELECT TOP (1000) [Column_1]
-      ,[NOMBRE]
-      ,[SEGUIDORES]
-      ,[TP]
-      ,[PAÍS]
-      ,[TEMA_DE_INFLUENCIA]
-      ,[ALCANCE_POTENCIAL]
-      ,[GUARDAR]
-      ,[INVITAR_A_LA_CAMPAÑA]
-      ,[channel_name]
-      ,[total_subscribers]
-      ,[total_views]
-      ,[total_videos]
-      ,[column14]
-  FROM [youtube_db].[dbo].[youtube_data_new];
+![Display all columns using SQL](https://github.com/bollasrikanth48/Top_uk_youtubers/blob/main/Assets/images/data.png)
 
 ## Data_Cleaning
 ## Create_SQL_view
