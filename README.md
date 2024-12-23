@@ -230,6 +230,6 @@ Top Performers by Net Profit:
 - Based on Subscribers: "Dan Rhodes" maintains the top position, highlighting consistent profitability across metrics.
 
 
-Focus your marketing campaign on "Dan Rhodes", as she delivers the highest net profit and considerable safe side in all the categories, ensuring maximum impact and return on investment.
+Focus your marketing campaign on "Dan Rhodes", as he delivers the highest net profit and considerable safe side in all the categories, ensuring maximum impact and return on investment.
 
 
