@@ -31,14 +31,14 @@ To develop a dashboard that provides actionable insights into the top travel and
 
 This dashboard will empower the content strategy team to make data-driven decisions about partnerships that align with the company’s branding and audience goals.
 
-# Data Source
+# Data_Source
 Data is sourced from kaggle: (#https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
-# Steps involved
+# Steps_involved
 1. Development using SQL
 2. Testing
 3. Visualization using Power Bi
-# Development using SQL
+# Development_using_SQL
 General approach used as follows
 1. Get the data
 2. Explore the data in Excel
@@ -49,10 +49,10 @@ General approach used as follows
 7. Generate the findings based on the insights
 8. Write the documentation + commentary
 9. Publish the data to GitHub Pages
-## Data Exploration
+## Data_Exploration
 Dataset contains Top 100 youtubers based on the subscribers count in United Kingdom in 2024
 SQL queries are used to explore the data and following is the code used
-''' sql
+'''sql
 SELECT TOP (1000) [Column_1]
       ,[NOMBRE]
       ,[SEGUIDORES]
@@ -70,15 +70,15 @@ SELECT TOP (1000) [Column_1]
   FROM [youtube_db].[dbo].[youtube_data_new]
 '''
 
-## Data Cleaning
-## Create SQL view
+## Data_Cleaning
+## Create_SQL_view
 # Testing
-# Visualization  using Power Bi
-## Dax Measures
+# Visualization _using_PowerBi
+## Dax_Measures
 ## Results
 # Findings
 # Recomendation
-#Conclusion
+# Conclusion
 
 
 
