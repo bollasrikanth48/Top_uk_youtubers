@@ -1,6 +1,6 @@
 # Data Analysis using Excel, SQL and Power Bi
 
-![Dashboard for top UK Youtubers 2024](https://github.com/bollasrikanth48/Top_uk_youtubers/blob/main/Assets/images/powerbi.jpg)
+![Dashboard for top UK Youtubers 2024](Assets/images/powerbi.jpg)
 # Table of Contents
 -  [Objective](#Objective)
 -  [Data_Source](#Data_Source)
@@ -53,7 +53,7 @@ General approach used as follows
 Dataset contains Top 100 youtubers based on the subscribers count in United Kingdom in 2024
 SQL queries are used to explore the data and following is the code used
 
-![Display all columns using SQL](https://github.com/bollasrikanth48/Top_uk_youtubers/blob/main/Assets/images/data.png)
+![Display all columns using SQL](Assets/images/data.png)
 
 ## Data_Cleaning
 ## Create_SQL_view
